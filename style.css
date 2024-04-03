@@ -1,0 +1,294 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Moto Sans', sans-serif;
+    overflow: hidden;
+    text-shadow: 2px 1px 8px #000;
+    background-color: #000;
+    color: white;
+    background-color: #0d0d0e;
+    background-image: linear-gradient(90deg, #0d0d0e 31%, #435050 100%);
+}
+
+#color-effect {
+    color: #2e2675;
+    transition: ease 3ms;
+}
+
+.main-login {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-login {
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.left-login-image {
+    width: 50vw;
+}
+
+.right-login {
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-form {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 35px;
+    border-radius: 20px;
+}
+
+.title,
+.subtitle,
+.no-account,
+.sign-up {
+    align-self: flex-start;
+    /* Posiciona no início verticalmente */
+}
+
+.textfield {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.textfield>input {
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    background: linear-gradient(90deg, #1f2525 35%, #2d3535 100%);
+    color: #435050;
+    font-size: 12pt;
+    box-shadow: 0px 10px 20px #000000d5;
+    outline: none;
+    box-sizing: border-box;
+    margin: 10px;
+    transition: .7s;
+}
+
+.helper-box {
+    display: flex;
+    justify-content: space-between;
+    /* Coloca o conteúdo nos extremos */
+    align-items: center;
+    /* Alinha verticalmente */
+    width: 100%;
+}
+
+.checkbox-wrapper {
+    display: flex;
+    align-items: center;
+    /* Alinha verticalmente */
+    width: 100%;
+}
+
+.forget-password {
+    white-space: nowrap;
+    transition: color 0.3s ease;
+
+
+}
+
+.button-content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+}
+
+.btn-login {
+    width: 100%;
+    padding: 16px 0px;
+    margin: 25px;
+    border: none;
+    border-radius: 50px;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 3px;
+    color: #ffffff;
+    background-color: white;
+    box-sizing: border-box;
+    background-color: #2e2675;
+}
+
+.btn-login:hover {
+    color: white;
+    cursor: pointer;
+    background-size: 200% 100%;
+    box-shadow: 0px 0px 20px 0px #2e2675;
+
+
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+
+.btn-login:hover {
+    background-position: 80% 0;
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+    color: #ffffff;
+}
+
+.continue-box {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.hr-left,
+.hr-right {
+    width: 100%;
+    height: 1px;
+    margin: 0 10px;
+    background-color: #000000;
+    /* Cor da linha */
+    color: #000000;
+}
+
+.center-text {
+    white-space: nowrap;
+    color: #fff;
+    /* Cor do texto */
+}
+
+.other-buttons {
+    display: flex;
+    justify-content: space-between;
+    /* Coloca os botões no espaço disponível */
+    align-items: center;
+    align-content: center;
+    margin-top: 20px;
+    /* Ajuste conforme necessário */
+    width: 100%;
+}
+
+.google-btn,
+.apple-btn {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+    margin: 8px;
+    border-radius: 15px;
+    background-color: #1f2525;
+    /* Cor de fundo do botão */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    padding: 0 1rem;
+    box-shadow: 17px 10px 19px 30px rgba(0, 0, 0, 0.1);
+    justify-content: center;
+    border: none;
+}
+
+.google-btn:hover,
+.apple-btn:hover {
+    background-color: #f0f0f0;
+    /* Cor de fundo do botão ao passar o mouse */
+}
+
+.google-icon,
+.apple-icon {
+    width: 1rem;
+    /* Ajuste conforme necessário */
+    margin-right: 10px;
+    /* Espaçamento entre o ícone e o texto */
+}
+
+.btn-text {
+    color: #000;
+    /* Cor do texto do botão */
+    font-weight: bold;
+
+}
+
+.register {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: flex-start;
+    margin: 0 10px;
+}
+
+
+
+
+
+
+
+
+
+/*
+Default configuration
+*/
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 767px) {
+    .main-login {
+        flex-direction: column;
+    }
+
+    .right-login {
+        width: 100%;
+    }
+
+    .left-login,
+    .left-login-image {
+        display: none;
+    }
+
+    .login-form {
+        width: 100%;
+    }
+
+    .other-buttons {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .register {
+        align-self: center;
+        margin-top: 20px;
+    }
+}
